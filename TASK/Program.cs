@@ -27,7 +27,7 @@ string[] FillArray(int n)
     string[] arr = new string[n];
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = Console.ReadLine();
+        arr[i] = Console.ReadLine()  ?? string.Empty;;
     }
     return arr;
 }
